@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- book title = .test -->
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+<body>
+
+<par id="id3"> <!-- 그대를바라볼수있는것만으로 -->
+<text src="../page007.xhtml#word3"/>
+<audio clipBegin="43" clipEnd="50" src="../audio/day.m4a"/>
+</par>
+
+<par id="id4"> <!-- 그대의음성을 -->
+<text src="../page007.xhtml#word4"/>
+<audio clipBegin="50" clipEnd="54" src="../audio/day.m4a"/>
+</par>
+
+<par id="id5"> <!-- 듣는것만으로도 -->
+<text src="../page007.xhtml#word5"/>
+<audio clipBegin="54" clipEnd="58" src="../audio/day.m4a"/>
+</par>
+
+<par id="id6"> <!-- 기쁨을느낄수있었던날그날들 -->
+<text src="../page007.xhtml#word6"/>
+<audio clipBegin="58" clipEnd="65" src="../audio/day.m4a"/>
+</par>
+
+<par id="id7"> <!-- 그대를기억조차못하겠지만 -->
+<text src="../page007.xhtml#word7"/>
+<audio clipBegin="65" clipEnd="73" src="../audio/day.m4a"/>
+</par>
+
+<par id="id8"> <!-- 이렇듯 -->
+<text src="../page007.xhtml#word8"/>
+<audio clipBegin="73" clipEnd="77" src="../audio/day.m4a"/>
+</par>
+
+<par id="id9"> <!-- 소식조차알수없지만 -->
+<text src="../page007.xhtml#word9"/>
+<audio clipBegin="77" clipEnd="82" src="../audio/day.m4a"/>
+</par>
+
+<par id="id10"> <!-- 그대의이름을 -->
+<text src="../page007.xhtml#word10"/>
+<audio clipBegin="82" clipEnd="86" src="../audio/day.m4a"/>
+</par>
+
+<par id="id11"> <!-- 부르는것만으로도 -->
+<text src="../page007.xhtml#word11"/>
+<audio clipBegin="86" clipEnd="90" src="../audio/day.m4a"/>
+</par>
+
+<par id="id12"> <!-- 눈물이흐르곤했었던그날들 -->
+<text src="../page007.xhtml#word12"/>
+<audio clipBegin="90" clipEnd="98" src="../audio/day.m4a"/>
+</par>
+
+<par id="id13"> <!-- 잊어야한다면잊혀지면좋겠어 -->
+<text src="../page007.xhtml#word13"/>
+<audio clipBegin="98" clipEnd="106" src="../audio/day.m4a"/>
+</par>
+
+<par id="id14"> <!-- 부질없는아픔과이별할수있도록 -->
+<text src="../page007.xhtml#word14"/>
+<audio clipBegin="106" clipEnd="115" src="../audio/day.m4a"/>
+</par>
+
+<par id="id15"> <!-- 잊어야한다면잊혀지면좋겠어어어 -->
+<text src="../page007.xhtml#word15"/>
+<audio clipBegin="115" clipEnd="122" src="../audio/day.m4a"/>
+</par>
+
+<par id="id16"> <!-- 다시돌아올수없는그대를 -->
+<text src="../page007.xhtml#word16"/>
+<audio clipBegin="122" clipEnd="130" src="../audio/day.m4a"/>
+</par>
+
+</body>
+</smil>

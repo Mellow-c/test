@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.idpf.org/2007/opf">
+<dc:title>test</dc:title>
+<dc:identifier id="bookid">123456789xxx</dc:identifier>
+<dc:language>en</dc:language>
+<dc:rights>B J Smith</dc:rights>
+<dc:creator>A B Jones</dc:creator>
+<meta property="dcterms:modified">2013-07-22T15:24:13Z</meta>
+
+<!-- rendition layout tags -->
+<meta property="rendition:layout">pre-paginated</meta>
+<meta property="rendition:spread">auto</meta>
+<meta property="rendition:orientation">auto</meta>
+
+<!-- read aloud audio duration tags -->
+<meta property="media:active-class">-epub-media-overlay-active</meta>
+<meta property="media:duration" refines="#moPage006">43</meta>
+<meta property="media:duration" refines="#moPage007">87.000000</meta>
+<meta property="media:duration">130.000000</meta>
+
+</metadata>
+<manifest>
+<!--supplementary -->
+<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+
+<!-- css -->
+<item id="css001" href="css/373D65D1-64A5-4358-8786-5413E196CD3A.css" media-type="text/css"/>
+<item id="css002" href="css/3950906A-0B6A-46CA-958A-9DB22A232ED5.css" media-type="text/css"/>
+<item id="css003" href="css/48647593-55EC-48CC-AA27-3FF21FBA87F4.css" media-type="text/css"/>
+<item id="css004" href="css/62BF87ED-D17B-4C98-8BA5-FE6E3906FF1D.css" media-type="text/css"/>
+<item id="css005" href="css/6EDB1A24-67FE-4E03-B900-3EC897C1F1EA.css" media-type="text/css"/>
+<item id="css006" href="css/6FEE3901-F54F-40DB-8B2C-6D97F0384ED5.css" media-type="text/css"/>
+<item id="css007" href="css/9CB44B82-529F-43A7-820E-85416DBEF360.css" media-type="text/css"/>
+<item id="css008" href="css/BB45ACDC-2065-42A9-A4E5-57AAC50945AB.css" media-type="text/css"/>
+<item id="css009" href="css/1.css" media-type="text/css"/>
+
+<!-- xhtml -->
+<item id="pg001" href="page001.xhtml" media-type="application/xhtml+xml"/>
+<item id="pg002" href="page002.xhtml" media-type="application/xhtml+xml"/>
+<item id="pg003" href="page003.xhtml" media-type="application/xhtml+xml"/>
+<item id="pg004" href="page004.xhtml" media-type="application/xhtml+xml"/>
+<item id="pg005" href="page005.xhtml" media-type="application/xhtml+xml"/>
+<item id="pg006" href="page006.xhtml" media-type="application/xhtml+xml" media-overlay="moPage006"/>
+<item id="pg007" href="page007.xhtml" media-type="application/xhtml+xml" media-overlay="moPage007"/>
+<item id="pg008" href="page008.xhtml" media-type="application/xhtml+xml"/>
+<item id="pg009" href="page009.xhtml" media-type="application/xhtml+xml"/>
+
+<!-- images -->
+<item id="coverimage" href="images/cover.png" media-type="image/png" properties="cover-image"/>
+<item id="image001" href="images/0545AC26-5EAE-4360-BA63-02429A3A4AE3.jpg" media-type="image/jpeg"/>
+<item id="image002" href="images/22EB4107-DB19-40A7-ACBC-E27E0BCD1E3E.jpg" media-type="image/jpeg"/>
+<item id="image003" href="images/3FDB81C5-45C0-4EBB-BA31-4B9DC6D6F1D7.jpg" media-type="image/jpeg"/>
+<item id="image004" href="images/D8F7354D-062B-484C-A52E-EB81E2E44009.jpg" media-type="image/jpeg"/>
+<item id="image005" href="images/F156A923-EEF2-4F3E-ACC6-5EA72652ED44.jpg" media-type="image/jpeg"/>
+<item id="image006" href="images/1.jpg" media-type="image/jpeg"/>
+
+<!-- audio -->
+<item id="audio001" href="audio/bada.m4a" media-type="audio/mp4"/>
+<item id="audio002" href="audio/day.m4a" media-type="audio/mp4"/>
+
+<!-- fonts -->
+<item id="font001" href="font/Artbrush.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="font002" href="font/Daum_Regular.ttf" media-type="application/vnd.ms-opentype"/>
+<item id="font003" href="font/Daum_SemiBold.ttf" media-type="application/vnd.ms-opentype"/>
+
+<!-- smil -->
+<item id="moPage006" href="smil/page006.smil" media-type="application/smil+xml"/>
+<item id="moPage007" href="smil/page007.smil" media-type="application/smil+xml"/>
+
+<!-- extras -->
+</manifest>
+
+<spine>
+<itemref idref="pg001" properties="rendition:page-spread-center"/>
+<itemref idref="pg002"/>
+<itemref idref="pg003"/>
+<itemref idref="pg004"/>
+<itemref idref="pg005"/>
+<itemref idref="pg006"/>
+<itemref idref="pg007"/>
+<itemref idref="pg008"/>
+<itemref idref="pg009"/>
+</spine>
+
+</package>

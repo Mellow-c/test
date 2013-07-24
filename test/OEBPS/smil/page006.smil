@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- book title = .test -->
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0">
+<body>
+
+<par id="id1"> <!-- 그대를 -->
+<text src="../page006.xhtml#word1"/>
+<audio clipBegin="0.000000" clipEnd="38" src="../audio/day.m4a"/>
+</par>
+
+<par id="id2"> <!-- 생각하는것만으로 -->
+<text src="../page006.xhtml#word2"/>
+<audio clipBegin="38" clipEnd="43" src="../audio/day.m4a"/>
+</par>
+
+</body>
+</smil>
